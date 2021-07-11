@@ -4,18 +4,18 @@
     <subtitle>Blog</subtitle>
     <link href="/atom" rel="self" type="application/rss+xml"/>
     <link href="/" />
-    <updated>2021-07-11T12:39:37.251Z</updated>
+    <updated>2021-07-11T13:25:53.301Z</updated>
     <id>My Notion Blog</id>
     <entry>
-      <id>/blog/study</id>
+      <id>/blog/学習の軌跡</id>
       <title>学習の軌跡</title>
-      <link href="/blog/study"/>
-      <updated>2021-07-10T15:00:00.912Z</updated>
+      <link href="/blog/学習の軌跡"/>
+      <updated>2021-07-10T15:00:00.788Z</updated>
       <content type="xhtml">
         <div xmlns="http://www.w3.org/1999/xhtml">
           
           <p class="more">
-            <a href="/blog/study">Read more</a>
+            <a href="/blog/学習の軌跡">Read more</a>
           </p>
         </div>
       </content>
