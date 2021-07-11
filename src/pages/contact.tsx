@@ -13,22 +13,18 @@ const contacts = [
   {
     Comp: Twitter,
     alt: 'twitter icon',
-    link: 'https://twitter.com/_ijjk',
+    link: 'https://twitter.com/247Subaru',
   },
   {
     Comp: GitHub,
     alt: 'github icon',
-    link: 'https://github.com/ijjk',
+    link: 'https://github.com/subaru-hello',
   },
   {
     Comp: LinkedIn,
     alt: 'linkedin icon',
-    link: 'https://www.linkedin.com/in/jj-kasper-0b5392166/',
-  },
-  {
-    Comp: Envelope,
-    alt: 'envelope icon',
-    link: 'mailto:jj@jjsweb.site?subject=Notion Blog',
+    link:
+      'https://www.https://www.linkedin.com/in/%E4%B8%AD%E9%87%8E-%E6%98%B4-1b94b9172/',
   },
 ]
 
@@ -44,7 +40,7 @@ export default function Contact() {
         <h1 style={{ marginTop: 0 }}>Contact</h1>
 
         <div className={contactStyles.name}>
-          JJ Kasper - Next.js Engineer @{' '}
+          Subaru Nakano- An Engeneering world new comer-{' '}
           <ExtLink href="https://vercel.com">Vercel</ExtLink>
         </div>
 
