@@ -32,8 +32,8 @@ export default function Index() {
           <h3>僕の大好きな蛸 ✖︎ 自分の行動のログ ✖︎ ブログ</h3>
           <h3>Octopus✖︎Move✖︎Blog</h3>
           <p>
-            を文字ってオクトムー Blog と名付けました。 習慣作りは環境構築から。
-            Move Forward Slowly ,but Steady. Pull up!
+            を文字ってオクトムー Blog と名付けました。 Slowly,But Steady. Pull
+            up!
           </p>
         </div>
       </div>
