@@ -30,10 +30,6 @@ export default function Index() {
         <div className="explanation">
           <p>名前の由来</p>
           <h3>Octopus ✖︎ Move ✖︎ Blog</h3>
-          <p>
-            僕小学生の時から蛸の刺身が大好き何です。あと、自分の挑戦達（move)とBlog
-            をモジってオクトムーBlog と名付けました。
-          </p>
         </div>
       </div>
     </>

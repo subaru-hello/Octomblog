@@ -1,4 +1,14 @@
 import ExtLink from './ext-link'
+import contactStyles from '../styles/contact.module.css'
+import Twitter from '../components/svgs/twitter'
+const contacts = [
+  {
+    Comp: Twitter,
+    alt: 'twitter icon',
+
+    link: 'https://twitter.com/247Subaru',
+  },
+]
 
 export default function Footer() {
   return (
@@ -8,7 +18,15 @@ export default function Footer() {
           <span>ツイッターやってます</span>
         </div>
         {'　'}
-        <ExtLink href="https://twitter.com/247Subaru">Twitter</ExtLink>
+        <div className={contactStyles.links}>
+          {contacts.map(({ Comp, link, alt }) => {
+            return (
+              <ExtLink key={link} href={link} aria-label={alt}>
+                <Comp height={32} />
+              </ExtLink>
+            )
+          })}
+        </div>
       </footer>
     </>
   )
