@@ -28,9 +28,12 @@ export default function Index() {
         <Features />
 
         <div className="explanation">
-          <p>オクトムー Blog</p>
-          <h3>大好きな蛸 ✖︎ 自分の行動のログ ✖︎ ブログ</h3>
-          <p>Octopus✖︎Move✖︎Blog を文字ってオクトムー Blog と名付けました。</p>
+          <p>名前の由来</p>
+          <h3>Octopus ✖︎ Move ✖︎ Blog</h3>
+          <p>
+            僕小学生の時から蛸の刺身が大好き何です。あと、自分の挑戦達（move)とBlog
+            をモジってオクトムーBlog と名付けました。
+          </p>
         </div>
       </div>
     </>
