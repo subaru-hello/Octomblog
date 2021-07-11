@@ -4,15 +4,11 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <span>ツイッターやってます</span>
+        <div>
+          <span>ツイッターやってます</span>
+        </div>
         {'　'}
         <ExtLink href="https://twitter.com/247Subaru">Twitter</ExtLink>
-        <span>
-          and{'　'}
-          <ExtLink href="https://github.com/subaru-hello/Octomblog.git">
-            ソースコード
-          </ExtLink>
-        </span>
       </footer>
     </>
   )
