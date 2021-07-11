@@ -9,7 +9,6 @@ const contacts = [
     link: 'https://twitter.com/247Subaru',
   },
 ]
-
 export default function Footer() {
   return (
     <>
