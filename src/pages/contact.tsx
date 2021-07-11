@@ -43,7 +43,7 @@ export default function Contact() {
 
         <div className={contactStyles.name}>
           Subaru Nakano- An Engeneering world new comer-{' '}
-          <ExtLink href="https://vercel.com">Vercel</ExtLink>
+          <ExtLink href="https://twitter.com/247Subaru">Subaru</ExtLink>
         </div>
 
         <div className={contactStyles.links}>
