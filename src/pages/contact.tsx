@@ -6,7 +6,7 @@ import contactStyles from '../styles/contact.module.css'
 
 import GitHub from '../components/svgs/github'
 import Twitter from '../components/svgs/twitter'
-import Envelope from '../components/svgs/envelope'
+
 import LinkedIn from '../components/svgs/linkedin'
 
 const contacts = [
@@ -26,8 +26,7 @@ const contacts = [
     Comp: LinkedIn,
     alt: 'linkedin icon',
 
-    link:
-      'https://www.https://www.linkedin.com/in/%E4%B8%AD%E9%87%8E-%E6%98%B4-1b94b9172/',
+    link: 'https://www.linkedin.com/feed/',
   },
 ]
 
