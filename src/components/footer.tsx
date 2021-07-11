@@ -12,7 +12,6 @@ export default function Footer() {
           component={Link}
           to="https://twitter.com/247Subaru"
         >
-          With prop forwarding
         </Button>
 
         <span>
