@@ -7,7 +7,7 @@ export default function Footer() {
         <span>ツイッターやってます！</span>
         <ExtLink href="https://twitter.com/247Subaru">Twitter</ExtLink>
         <span>
-          or{' '}
+          or{'　'}
           <ExtLink href="https://github.com/subaru-hello/Octomblog.git">
             This page's code is here
           </ExtLink>
