@@ -14,6 +14,7 @@ export default function Index() {
           width="250"
           alt="Vercel + Notion"
         />
+
         <h1>オクトムーBlog</h1>
         <h2>
           多分７ヶ月後にスタートアップでBackEndエンジニアになってます。'{' '}

@@ -13,16 +13,19 @@ const contacts = [
   {
     Comp: Twitter,
     alt: 'twitter icon',
+
     link: 'https://twitter.com/247Subaru',
   },
   {
     Comp: GitHub,
     alt: 'github icon',
+
     link: 'https://github.com/subaru-hello',
   },
   {
     Comp: LinkedIn,
     alt: 'linkedin icon',
+
     link:
       'https://www.https://www.linkedin.com/in/%E4%B8%AD%E9%87%8E-%E6%98%B4-1b94b9172/',
   },
