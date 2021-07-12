@@ -8,7 +8,12 @@ export default function Index() {
     <>
       <Header titlePre="Home" />
       <div className={sharedStyles.layout}>
-        <img src="/kankare.png" height="85" width="250" alt="Vercel + Notion" />
+        <img
+          src="/kankare.png"
+          height="170"
+          width="500"
+          alt="Vercel + Notion"
+        />
 
         <h1>オクトムーBlog</h1>
         <h2>
@@ -23,8 +28,15 @@ export default function Index() {
         {/* <Features /> */}
 
         <div className="explanation">
-          <p>名前の由来</p>
-          <h3>Octopus ✖︎ Move ✖︎ Blog</h3>
+          <h3>名前の由来</h3>
+          <p>
+            Octopus ✖︎ Move ✖︎ Blog
+            <ExtLink
+              href="https://github.com/subaru-hello/"
+              className="dotted"
+              style={{ color: 'inherit' }}
+            ></ExtLink>
+          </p>
         </div>
       </div>
     </>
