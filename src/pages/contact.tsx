@@ -42,7 +42,7 @@ export default function Contact() {
         <h1 style={{ marginTop: 0 }}>Contact</h1>
 
         <div className={contactStyles.name}>
-          Subaru Nakano- An Engeneering world new comer-{' '}
+          Subaru Nakano- 元信託銀行員-{' '}
           <ExtLink href="https://twitter.com/247Subaru">Subaru</ExtLink>
         </div>
 

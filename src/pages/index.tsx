@@ -27,7 +27,7 @@ export default function Index() {
 
         {/* <Features /> */}
 
-        <div className="explanation">
+        {/* <div className="explanation">
           <h3>名前の由来</h3>
           <p>
             Octopus ✖︎ Move ✖︎ Blog
@@ -37,7 +37,7 @@ export default function Index() {
               style={{ color: 'inherit' }}
             ></ExtLink>
           </p>
-        </div>
+        </div> */}
       </div>
     </>
   )
