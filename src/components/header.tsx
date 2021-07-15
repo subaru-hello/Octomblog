@@ -8,7 +8,7 @@ const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'ホーム', page: '/' },
   { label: 'ブログ', page: '/blog' },
   { label: '私について', page: '/contact' },
-  { label: 'ツイッター', link: 'https://https://twitter.com/247Subaru' },
+  { label: 'ツイッター', link: 'https://twitter.com/247Subaru' },
   { label: 'Github', link: 'https://github.com/subaru-hello' },
 ]
 
