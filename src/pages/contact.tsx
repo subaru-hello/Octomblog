@@ -33,17 +33,17 @@ const contacts = [
 export default function Contact() {
   return (
     <>
-      <Header titlePre="Contact" />
+      <Header titlePre="私について" />
       <div className={sharedStyles.layout}>
         <div className={contactStyles.avatar}>
           <img src="/avatar.png" alt="avatar with letters JJ" height={60} />
         </div>
 
-        <h1 style={{ marginTop: 0 }}>Contact</h1>
+        <h1 style={{ marginTop: 0 }}>私について</h1>
 
         <div className={contactStyles.name}>
-          Subaru Nakano- 元信託銀行員-{' '}
-          <ExtLink href="https://twitter.com/247Subaru">Subaru</ExtLink>
+          Subaru Nakano{' '}
+          <ExtLink href="https://twitter.com/247Subaru">-元信託銀行員-</ExtLink>
         </div>
 
         <div className={contactStyles.links}>

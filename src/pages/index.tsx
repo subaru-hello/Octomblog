@@ -6,7 +6,7 @@ import sharedStyles from '../styles/shared.module.css'
 export default function Index() {
   return (
     <>
-      <Header titlePre="Home" />
+      <Header titlePre="ホーム" />
       <div className={sharedStyles.layout}>
         <img
           src="/kankare.png"
@@ -17,7 +17,7 @@ export default function Index() {
 
         <h1>オクトムーBlog</h1>
         <h2>
-          多分７ヶ月後にスタートアップでBackEndエンジニアになってます。{' '}
+          「無私無欲のすすめ」（作: 老子）にハマってます。{' '}
           <ExtLink
             href="https://github.com/subaru-hello/"
             className="dotted"
