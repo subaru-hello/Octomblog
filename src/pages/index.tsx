@@ -17,7 +17,7 @@ export default function Index() {
 
         <h1>オクトムーBlog</h1>
         <h2>
-          「無私無欲のすすめ」（作: 老子）にハマってます。{' '}
+          「無知無欲のすすめ」（作: 老子）にハマってます。{' '}
           <ExtLink
             href="https://github.com/subaru-hello/"
             className="dotted"

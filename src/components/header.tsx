@@ -5,11 +5,11 @@ import { useRouter } from 'next/router'
 import styles from '../styles/header.module.css'
 
 const navItems: { label: string; page?: string; link?: string }[] = [
-  { label: 'ホーム', page: '/' },
-  { label: 'ブログ', page: '/blog' },
-  { label: '私について', page: '/contact' },
-  { label: 'ツイッター', link: 'https://twitter.com/247Subaru' },
-  { label: 'Github', link: 'https://github.com/subaru-hello' },
+  { label: 'ほーむ', page: '/' },
+  { label: 'ぶろぐ', page: '/blog' },
+  { label: 'あばうと', page: '/contact' },
+  { label: 'ついったー', link: 'https://twitter.com/247Subaru' },
+  { label: 'ぎっとはぶ', link: 'https://github.com/subaru-hello' },
 ]
 
 const ogImageUrl = 'https://notion-blog.now.sh/op-image.png'
@@ -27,7 +27,7 @@ const Header = ({ titlePre = '' }) => {
         />
         <meta name="og:title" content="オクトムー Blog" />
         <meta property="og:image" content={ogImageUrl} />
-        <meta name="twitter:site" content="@_ijjk" />
+        <meta name="twitter:site" content="@247subaru" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>

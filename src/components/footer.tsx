@@ -14,7 +14,7 @@ export default function Footer() {
     <>
       <footer>
         <div>
-          <span>ツイッターやってます</span>
+          <span>技術ぶろぐ</span>
         </div>
         {'　'}
         <div className={contactStyles.links}>
