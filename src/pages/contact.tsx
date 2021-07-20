@@ -33,7 +33,7 @@ const contacts = [
 export default function Contact() {
   return (
     <>
-      <Header titlePre="私について" />
+      <Header titlePre="About" />
       <div className={sharedStyles.layout}>
         <div className={contactStyles.avatar}>
           <img src="/avatar.png" alt="avatar with letters JJ" height={60} />
@@ -44,7 +44,7 @@ export default function Contact() {
         <div className={contactStyles.name}>
           Subaru Nakano{' '}
           <ExtLink href="https://twitter.com/247Subaru">-元信託銀行員-</ExtLink>
-          101代青山学院大学陸上部主将
+          101代青山学院大学陸上競技部主将 関東インカレ110mH二部優勝
         </div>
 
         <div className={contactStyles.links}>

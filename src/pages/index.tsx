@@ -23,6 +23,7 @@ export default function Index() {
             className="dotted"
             style={{ color: 'inherit' }}
           ></ExtLink>
+          「天長地久」
         </h2>
 
         {/* <Features /> */}
