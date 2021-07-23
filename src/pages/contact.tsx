@@ -44,7 +44,7 @@ export default function Contact() {
         <div className={contactStyles.name}>
           Subaru Nakano{' '}
           <ExtLink href="https://twitter.com/247Subaru">-元信託銀行員-</ExtLink>
-          関東インカレ110mH二部優勝
+          関東インカレ110mH二部優勝2019
         </div>
 
         <div className={contactStyles.links}>
