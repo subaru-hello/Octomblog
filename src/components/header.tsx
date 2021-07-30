@@ -5,11 +5,11 @@ import { useRouter } from 'next/router'
 import styles from '../styles/header.module.css'
 
 const navItems: { label: string; page?: string; link?: string }[] = [
-  { label: 'ほーむ', page: '/' },
-  { label: 'ぶろぐ', page: '/blog' },
-  { label: 'あばうと', page: '/contact' },
-  { label: 'ついったー', link: 'https://twitter.com/247Subaru' },
-  { label: 'ぎっとはぶ', link: 'https://github.com/subaru-hello' },
+  { label: 'HOME', page: '/' },
+  { label: 'Articles', page: '/blog' },
+  { label: 'About', page: '/contact' },
+  { label: 'Twitter', link: 'https://twitter.com/247Subaru' },
+  { label: 'Github', link: 'https://github.com/subaru-hello' },
 ]
 
 const ogImageUrl = 'https://notion-blog.now.sh/op-image.png'
@@ -23,7 +23,7 @@ const Header = ({ titlePre = '' }) => {
         <title>{titlePre ? `${titlePre} |` : ''} オクトムーblog</title>
         <meta
           name="description"
-          content="An example Next.js site using Notion for the blog"
+          content="BizTechを目指すエンジニアブログ-オクトムーblog-"
         />
         <meta name="og:title" content="オクトムー Blog" />
         <meta property="og:image" content={ogImageUrl} />

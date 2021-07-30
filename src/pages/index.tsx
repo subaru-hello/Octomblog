@@ -6,7 +6,7 @@ import sharedStyles from '../styles/shared.module.css'
 export default function Index() {
   return (
     <>
-      <Header titlePre="ホーム" />
+      <Header titlePre="HOME" />
       <div className={sharedStyles.layout}>
         <img
           src="/kankare.png"
@@ -23,7 +23,7 @@ export default function Index() {
             className="dotted"
             style={{ color: 'inherit' }}
           ></ExtLink>
-          「天長地久」
+          「天長地久」「逆説的生き方のすすめ」
         </h2>
 
         {/* <Features /> */}

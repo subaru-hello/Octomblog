@@ -39,12 +39,14 @@ export default function Contact() {
           <img src="/avatar.png" alt="avatar with letters JJ" height={60} />
         </div>
 
-        <h1 style={{ marginTop: 0 }}>私について</h1>
+        <h1 style={{ marginTop: 0 }}>About</h1>
 
         <div className={contactStyles.name}>
           Subaru Nakano{' '}
-          <ExtLink href="https://twitter.com/247Subaru">-元信託銀行員-</ExtLink>
-          関東インカレ110mH二部優勝2019
+          <ExtLink href="https://twitter.com/247Subaru">-元信託銀行員</ExtLink>{' '}
+          <h3>趣味</h3>
+          ・毎朝15分筋トレ
+          　　　　　　・食事（オートミール、豆腐、プロテイン、鶏胸肉、沼）
         </div>
 
         <div className={contactStyles.links}>
