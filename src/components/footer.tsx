@@ -21,7 +21,7 @@ const contacts = [
     Comp: LinkedIn,
     alt: 'linkedin icon',
 
-    link: 'https://www.linkedin.com/feed/',
+    link: 'https://www.linkedin.com/in/%E4%B8%AD%E9%87%8E-%E6%98%B4-1b94b9172/',
   },
 ]
 export default function Footer() {
