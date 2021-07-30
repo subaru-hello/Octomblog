@@ -45,11 +45,11 @@ export default function Contact() {
           Subaru Nakano{' '}
           <ExtLink href="https://twitter.com/247Subaru">-元信託銀行員</ExtLink>{' '}
           <h3>趣味</h3>
-          ・毎朝15分筋トレ
-          　　　　　　・食事（オートミール、豆腐、プロテイン、鶏胸肉、沼）
+          <p>・毎朝15分筋トレ</p>
+          <p>・食事（オートミール、豆腐、プロテイン、鶏胸肉、沼）</p>
         </div>
 
-        <div className={contactStyles.links}>
+        {/* <div className={contactStyles.links}>
           {contacts.map(({ Comp, link, alt }) => {
             return (
               <ExtLink key={link} href={link} aria-label={alt}>
@@ -57,7 +57,7 @@ export default function Contact() {
               </ExtLink>
             )
           })}
-        </div>
+        </div> */}
       </div>
     </>
   )

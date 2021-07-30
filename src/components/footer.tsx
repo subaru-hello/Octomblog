@@ -1,6 +1,9 @@
 import ExtLink from './ext-link'
 import contactStyles from '../styles/contact.module.css'
 import Twitter from '../components/svgs/twitter'
+import GitHub from '../components/svgs/github'
+import LinkedIn from '../components/svgs/linkedin'
+
 const contacts = [
   {
     Comp: Twitter,
@@ -8,13 +11,25 @@ const contacts = [
 
     link: 'https://twitter.com/247Subaru',
   },
+  {
+    Comp: GitHub,
+    alt: 'github icon',
+
+    link: 'https://github.com/subaru-hello',
+  },
+  {
+    Comp: LinkedIn,
+    alt: 'linkedin icon',
+
+    link: 'https://www.linkedin.com/feed/',
+  },
 ]
 export default function Footer() {
   return (
     <>
       <footer>
         <div>
-          <span>技術ぶろぐ</span>
+          <span>SNS</span>
         </div>
         {'　'}
         <div className={contactStyles.links}>
